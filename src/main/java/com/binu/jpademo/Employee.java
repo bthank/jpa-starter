@@ -12,6 +12,8 @@ public class Employee {
 	private int id;
 	
 	private String name;
+	
+	private EmployeeType type;
 
 	public int getId() {
 		return id;
@@ -27,6 +29,14 @@ public class Employee {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public EmployeeType getType() {
+		return type;
+	}
+
+	public void setType(EmployeeType type) {
+		this.type = type;
 	}
 	
 	
