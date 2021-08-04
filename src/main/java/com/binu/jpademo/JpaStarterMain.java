@@ -23,7 +23,7 @@ public class JpaStarterMain {
 		Employee emp3 = new Employee();
 		emp3.setId(3);
 		emp3.setName("Paul Wilson");
-		emp3.setType(EmployeeType.CONTRACTOR);
+		emp3.setType(EmployeeType.PAYROLL_EXEMPT);
 		
 		
 		

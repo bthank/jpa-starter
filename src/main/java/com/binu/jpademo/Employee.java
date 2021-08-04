@@ -1,6 +1,8 @@
 package com.binu.jpademo;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -13,6 +15,7 @@ public class Employee {
 	
 	private String name;
 	
+	@Enumerated(EnumType.STRING)
 	private EmployeeType type;
 
 	public int getId() {
