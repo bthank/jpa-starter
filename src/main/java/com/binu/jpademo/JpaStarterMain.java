@@ -18,12 +18,12 @@ public class JpaStarterMain {
 		Employee emp2 = new Employee();
 		emp2.setId(2);
 		emp2.setName("Mary Smith");
-		emp1.setType(EmployeeType.CONTRACTOR);
+		emp2.setType(EmployeeType.CONTRACTOR);
 
 		Employee emp3 = new Employee();
 		emp3.setId(3);
 		emp3.setName("Paul Wilson");
-		emp1.setType(EmployeeType.CONTRACTOR);
+		emp3.setType(EmployeeType.CONTRACTOR);
 		
 		
 		
